@@ -4,7 +4,7 @@
 
 ### Project Description
 
-This Django built web app utilizes Django custom user model named CustomUser. The app works with Django Admin.
+This Django built web app utilizes Django custom user model named CustomUser. The app works with Django Admin and includes user registration, login and logout. It is styled using Flowbite.
 
 ### Author: Rhett Chase
 
@@ -14,6 +14,7 @@ This Django built web app utilizes Django custom user model named CustomUser. Th
 <!-- - [front-end application](http://xyz.com/) (when applicable) -->
 - chatGPT
 - [Django Custum User Model](https://learndjango.com/tutorials/django-custom-user-model)
+- [Flowbite](https://flowbite.com/docs/components/forms/#more-examples)
 
 ### Setup
 
@@ -33,11 +34,6 @@ This Django built web app utilizes Django custom user model named CustomUser. Th
 - Install dependencies (see above)
 - See the page in browser by running `python manage.py runserver`
 - Open the page via the local server address specified in the terminal
-
-##### Create Superuser
-
-- In separate terminal, create superuser with command `python manage.py createsuperuser`
-- Visit the `/admin` path and login with the superuser username and password you created
 
 #### How to use your library (where applicable)
 
